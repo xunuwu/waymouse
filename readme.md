@@ -13,7 +13,7 @@ cargo install --git https://github.com/xunuwu/waymouse
 This command might take a while to run as it needs to compile `waymouse` from source.
 
 ## Usage
-You can always `waymouse --help` or `waymouse <SUBCOMMAND> --help` :)
+You can always use `waymouse --help` or `waymouse <SUBCOMMAND> --help` :)
 ```
 # To input negative numbers you need to use --, ex 'waymouse move -- -20 -150'
 waymouse move <X> <Y> # These are relative to your current mouse position!
