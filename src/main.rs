@@ -73,7 +73,7 @@ impl Dispatch<ZwlrVirtualPointerV1, ()> for AppState {
 }
 
 #[derive(Parser)]
-#[command(version, about, long_about = None)]
+#[command(version)]
 struct Cli {
     #[command(subcommand)]
     command: Commands,
@@ -102,10 +102,10 @@ enum ButtonActions {
     Click {
         button: MouseButton,
 
-        #[arg(default_value_t = 1, short = 'c')]
+        #[arg(default_value_t = 1, long = "count", short = 'c')]
         count: u32,
 
-        #[arg(default_value_t = 100, short = 'd')]
+        #[arg(default_value_t = 100, long = "delay", short = 'd')]
         delay_ms: u64,
     },
     Down {
