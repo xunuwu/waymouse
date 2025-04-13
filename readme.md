@@ -4,7 +4,7 @@
 ## Prerequisites
 1. For waymouse to work you need to be using a wayland compositor/desktop that implements `zwlr_virtual_pointer_v1`, you can check if your compositor/desktop implements that [here](https://wayland.app/protocols/wlr-virtual-pointer-unstable-v1#compositor-support)
 2. You need to have cargo to install waymouse as there are currently no pre-built binaries, cargo can be installed with `curl https://sh.rustup.rs -sSf | sh`
-3. `~/.cargo/bin` needs to be in your `$PATH`, this should be done by default if you ran the previous command and installed cargo through rustup. If you installed cargo through your package manager you may need to add `export PATH="$HOME/.cargo/bin:$PATH"` .bashrc/.zshrc
+3. `~/.cargo/bin` needs to be in your `$PATH`, this should be done by default if you ran the previous command and installed cargo through rustup. If you installed cargo through your package manager you may need to add `export PATH="$HOME/.cargo/bin:$PATH"` to your .bashrc/.zshrc
 
 ## Installation
 ```
